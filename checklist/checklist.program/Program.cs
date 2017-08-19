@@ -7,10 +7,19 @@ namespace checklist.checklist.program
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             var checklist = new Checklist();
 
-            checklist.AddItem("Test item");
+            var item1 = checklist.AddItem("Toilettas");
+            var item2 = checklist.AddItem("Babyspulletjes");
+
+            checklist.CheckItem(item2.Index);
+
+            var items = checklist.GetAllItems();
+
+            foreach (var item in items)
+            {          
+                Console.WriteLine(item);
+            }
         }
     }
 }
