@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checklist", "checklist\chec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checklist.program", "checklist.program\checklist.program.csproj", "{2D1C2501-6D50-405E-A529-2384423A16EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checklist.mvc", "checklist.mvc\checklist.mvc.csproj", "{4CC77A47-F178-42C2-8BB3-CCA113164C7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{2D1C2501-6D50-405E-A529-2384423A16EA}.Release|x64.Build.0 = Release|x64
 		{2D1C2501-6D50-405E-A529-2384423A16EA}.Release|x86.ActiveCfg = Release|x86
 		{2D1C2501-6D50-405E-A529-2384423A16EA}.Release|x86.Build.0 = Release|x86
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|x64.ActiveCfg = Debug|x64
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|x64.Build.0 = Debug|x64
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|x86.ActiveCfg = Debug|x86
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Debug|x86.Build.0 = Debug|x86
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|x64.ActiveCfg = Release|x64
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|x64.Build.0 = Release|x64
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|x86.ActiveCfg = Release|x86
+		{4CC77A47-F178-42C2-8BB3-CCA113164C7C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

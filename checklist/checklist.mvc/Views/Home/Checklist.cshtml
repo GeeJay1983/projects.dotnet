@@ -1,0 +1,8 @@
+@using checklist.mvc.ViewModels
+
+@model ChecklistViewModel
+
+@foreach (var item in Model.Items)
+{
+    <input type="checkbox" name="item@item.Index" checked="@(item.Checked ? "checked": null)" />@item.Value<br />
+}

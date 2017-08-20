@@ -26,6 +26,22 @@ namespace checklist
                 }
             }
             
+            public string Value
+            {
+                get
+                {
+                    return _value;
+                }
+            }
+
+            public bool Checked
+            {
+                get
+                {
+                    return _checked;
+                }
+            }
+
             public override string ToString()
             {
                 var checkedValue = _checked ? "[X]": "[_]";
